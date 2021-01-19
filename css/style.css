@@ -1,0 +1,22 @@
+/*#primary color :#00BFA6*/
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+
+:root{
+    --primary color:#00BFA6
+}
+
+body
+{
+    font-family: 'Mulish', sans-serif;
+
+}
+.container
+{
+    /*padding : top right bottom left*/
+    padding : 0rem 2rem 0rem 2rem
+}
+.container-center{
+    max-width: 600px;
+    /*margin auto takes element to center*/
+    margin:auto ;
+}
