@@ -1,8 +1,10 @@
 /*#primary color :#00BFA6*/
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500;700&display=swap');
 
 :root{
-    --primary-color:#536DFE
+    --primary-color:#05BBA4;
+    --grey-color:#6B7280;
+    --off-white:#F3F4F6;
 }
 
 body
@@ -49,7 +51,6 @@ body
 
 hr{
     margin:2rem 0rem;
-
 }
 
 /*@lists*/
@@ -60,4 +61,87 @@ hr{
 .list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
+}
+
+/*@navigation*/
+.navigation{
+    background-color: var(--primary-color);
+    color:white;
+    border-radius:0.3rem;
+}
+.navigation .links{
+    color: white;
+}
+.navigation .brand-name{
+    padding:1rem 1rem;
+    font-weight: bold;
+}
+.navigation .nav-buttons
+{
+    text-align: right;
+    padding:1rem 1rem;
+}
+.navigation .link-active
+{
+    font-weight: bold;
+}
+
+/*@header*/
+.hero{
+    padding:2rem;
+}
+.hero .hero-image
+{
+    max-width: 350px;
+    display:block;
+    margin:auto;
+}
+.hero .hero-heading
+{
+    color:var(--grey-color);
+    text-align: center;
+    padding:1rem;
+}
+.emphasize-name{
+    color:var(--primary-color);
+}
+/*@section*/
+.section{
+    padding: 2rem;
+}
+.section h1{
+    text-align: center;
+}
+.section-offw{
+    background-color:var(--off-white); 
+    padding: 2rem; 
+}
+
+.section-offw h1{
+    text-align: center;
+}
+
+/*@footer*/
+.footer-section
+{
+    background-color :var(--primary-color);
+    border-radius: 0.3rem;
+    padding:2rem 1rem;
+    text-align: center;
+    color:white;
+   
+}
+.footer-section .links{
+    
+    padding:1rem 1rem;
+    color:white;
+}
+.footer-header
+{
+    font-weight:bold;
+    font-size: x-large;
+}
+
+ul{
+    padding-inline-start:0px;
 }
