@@ -1,8 +1,8 @@
-/*#primary color :#00BFA6*/
+/*#primary color :#05BBA4*  grey-#6B7280 off-white:#F3F4F6 blue #33CEC3 dark blue #00203FFf*/ 
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500;700&display=swap');
 
 :root{
-    --primary-color:#05BBA4;
+    --primary-color:#333DF9FF;
     --grey-color:#6B7280;
     --off-white:#F3F4F6;
 }
@@ -70,7 +70,7 @@ hr{
     border-radius:0.3rem;
 }
 .navigation .links{
-    color: white;
+    color:white;
 }
 .navigation .brand-name{
     padding:1rem 1rem;
